@@ -87,14 +87,14 @@ router.put(
       // const transformedPicture = convertToBase64(req.files.picture);
 
       offerToUpdate.title = title;
-      offerToUpdate.title = title;
-      offerToUpdate.title = title;
-      offerToUpdate.title = title;
-      offerToUpdate.title = title;
-      offerToUpdate.title = title;
-      offerToUpdate.title = title;
-      offerToUpdate.title = title;
-      offerToUpdate.product_image = title;
+      offerToUpdate.description = description;
+      offerToUpdate.price = price;
+      offerToUpdate.condition = condition;
+      offerToUpdate.city = city;
+      offerToUpdate.brand = brand;
+      offerToUpdate.size = size;
+      offerToUpdate.color = color;
+      offerToUpdate.picture = picture;
 
       res.status(201).json("Ok");
     } catch (error) {
